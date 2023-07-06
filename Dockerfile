@@ -1,5 +1,5 @@
 # This assumes the container is running on a system with a CUDA GPU
-FROM tensorflow/tensorflow:latest-gpu
+FROM tensorflow/tensorflow:2.8.4-gpu
 
 WORKDIR /tf-knugs
 
