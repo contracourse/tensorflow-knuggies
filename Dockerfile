@@ -3,7 +3,7 @@ FROM tensorflow/tensorflow:2.8.4-gpu
 
 WORKDIR /tf-knugs
 
-RUN pip install -U jupyterlab pandas matplotlib seaborn
+RUN pip install -U jupyterlab pandas matplotlib seaborn yfinance
 
 EXPOSE 8888
 
