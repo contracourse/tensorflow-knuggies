@@ -3,7 +3,7 @@ FROM tensorflow/tensorflow:latest-gpu-jupyter
 
 WORKDIR /tf-knugs
 
-RUN pip install -U jupyterlab pandas matplotlib seaborn yfinance tensorflow_probability
+RUN pip install -U jupyterlab pandas matplotlib seaborn yfinance tensorflow_probability scipy scikit-learn
 
 EXPOSE 8888
 
